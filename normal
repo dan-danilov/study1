@@ -1,0 +1,18 @@
+#1 задание
+var1 = int(input("введите число: "))
+while (10 < var1 or var1 < 0):
+    var1 = int(input("введите другое число (от 0 до 10): "))
+
+print(var1**2)
+
+#2 задание
+var2 = int(input("введите 1 число: "))
+
+var3 = int(input("введите 2 число: "))
+
+var2 = var2 + var3
+var3 = var2 - var3
+var2 = var2 - var3
+print("После замены чисел местами результат будет: ")
+print("1 число = "+ str(var2))
+print("2 число = "+ str(var3))
