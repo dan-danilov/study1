@@ -1,0 +1,17 @@
+#1 задание
+var1 = 1
+var2 = '1'
+var3 = input("input a number: ")
+print(var3)
+
+#2 задание
+var4 = int(input("введите число: "))
+var5 = var4 + 2
+print(var5)
+
+#3 задание
+var6 = int(input("введите ваш возраст: "))
+if var6 > 18:
+    print("Доступ разрешен")
+else:
+    print("Извините, пользование данным ресурсом только с 18 лет")
